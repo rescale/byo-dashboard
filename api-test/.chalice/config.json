@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "app_name": "api-test",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "S3_BUCKET_NAME": "april-byo-test-bucket",
+        "CLOUD_FRONT_NAME": "https://d2tu7sv377luam.cloudfront.net"
+      }
+    }
+  }
+}
